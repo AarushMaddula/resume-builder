@@ -1,0 +1,102 @@
+:root {
+    --secondary-bg-color: rgb(255, 255, 255);
+}
+
+.personal-details-form-section,
+.experience-form-section,
+.education-form-section {
+    background-color: var(--secondary-bg-color);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.sidebar h2
+{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+form ul {
+    padding-left: 0px;
+    padding-top: 15px;
+}
+
+form li {
+    position: relative;
+    list-style: none;
+    margin-bottom: 25px;
+}
+
+form label {
+    position: absolute;
+    bottom: 40px;
+    left: 5px;
+    background-color: var(--secondary-bg-color);
+    padding: 0px 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+form input {
+    padding: 10px;
+    width: 275px;
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: var(--secondary-bg-color);
+}
+
+.experience-list,
+.education-list {
+    list-style: none;
+    padding: 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experience-list > li,
+.education-list > li {
+    width: 100%;
+    padding: 5px 0px;
+    border-bottom: 1px solid rgb(165, 165, 165);
+}
+
+.experience-list > li:last-child,
+.education-list > li:last-child {
+    border-bottom: 0px;
+}
+
+.experience-list > li > button,
+.education-list > li > button {
+    width: 100%;
+    background-color: white;
+    border: 0px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(232, 232, 232);
+    transition: background-color 100ms;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.buttons button:hover {
+    background-color: rgb(187, 187, 187);
+}
+

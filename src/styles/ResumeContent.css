@@ -1,0 +1,63 @@
+
+.fullname {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.personal-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.resume-content h2 {
+    font-family: "PT Serif";
+    border-bottom: 1px solid black;
+    padding: 5px 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.experiences, .schools {
+    display: flex;
+    flex-direction: column;    
+    gap: 10px;
+}
+
+.experience, .school {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.experience-context, .school-context {
+    flex: 0 0 150px;
+}
+
+.location {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.time {
+    font-size: 14px;
+}
+
+.experience-details, .school-details{
+    flex: 1fr;
+}
+
+.company, .school-name {
+    font-weight: 700;
+}
+
+.role {
+    margin-bottom: 3px;
+}
+
+.description, .degree {
+    font-size: 14px;
+}

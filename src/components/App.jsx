@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import './App.css'
-import './form.css'
+import '../styles/App.css'
+import '../styles/form.css'
 
 import ResumeContent from './ResumeContent'
 import ExperienceForm from './ExperienceForm'

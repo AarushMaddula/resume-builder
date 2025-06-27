@@ -1,7 +1,7 @@
-import './styles/ResumeContent.css'
+import '../styles/ResumeContent.css'
 
 import Experience from './Experience'
-import School from './components/School'
+import School from './School'
 
 function ResumeContent({personalDetails, experiences, schools}) {
 

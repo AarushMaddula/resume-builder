@@ -90,7 +90,7 @@ function App() {
         
         <div className="header">
         
-          <img src="public/resumeicon.png" alt="resume icon"/>
+          <img src="/resumeicon.png" alt="resume icon"/>
           <h1>Resume Builder</h1>
 
         </div>
